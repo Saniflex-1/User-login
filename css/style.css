@@ -71,9 +71,11 @@
    font-size: 20px;
 }
 
+
+
 .form-container{
    min-height: 100vh;
-   /* background-color: var(--light-bg); */
+   background-color: var(--light-bg);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -82,7 +84,7 @@
 
 .form-container form{
    padding:20px;
-   background-color: var(--white);
+   background-color: var(--dark-red);
    box-shadow: var(--box-shadow);
    text-align: center;
    width: 500px;
@@ -93,7 +95,7 @@
    margin-bottom: 10px;
    font-size: 30px;
    color:var(--black);
-   text-transform: uppercase;
+   text-transform: lowercase;
 }
 
 .form-container form .box{
