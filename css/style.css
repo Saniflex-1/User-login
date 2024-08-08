@@ -31,6 +31,18 @@
    background-color: var(--blue);
 }
 
+/* Home styling */
+
+.home{
+   position: absolute;
+   height: 100vh;
+   background-color: #2980b9;
+}
+
+.home h2{
+   color: red;
+}
+
 .btn,
 .delete-btn{
    width: 100%;
@@ -95,7 +107,7 @@
    margin-bottom: 10px;
    font-size: 30px;
    color:var(--black);
-   text-transform: lowercase;
+   text-transform: uppercase;
 }
 
 .form-container form .box{
