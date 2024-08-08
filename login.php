@@ -35,7 +35,9 @@ if(isset($_POST['submit'])){
 </head>
 <body>
    
+   <p>BACK👈 <a href="index.php">Home</a></p>
 <div class="form-container">
+
 
    <form action="" method="post" enctype="multipart/form-data">
       <h3>login now</h3>
@@ -49,6 +51,7 @@ if(isset($_POST['submit'])){
       <input type="email" name="email" placeholder="enter email" class="box" required>
       <input type="password" name="password" placeholder="enter password" class="box" required>
       <input type="submit" name="submit" value="login now" class="btn">
+      <p style="margin-left: 150px; font-size:15px">Have <a href="">Forgotten Password</a></p>
       <p>don't have an account? <a href="register.php">regiser now</a></p>
    </form>
 
