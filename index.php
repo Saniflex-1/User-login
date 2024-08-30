@@ -12,17 +12,11 @@
         }
 
         .home{
-            background-image: url('/uploaded_img/Wills.jpg');
             height: 100vh; 
             display:flex; 
           align-items:center;
           justify-content: center;
-          background: linear-gradient(to top,
-          rgba(255, 255, 255, 0.8),
-          rgba(255, 0, 0, 0.6),
-          rgba(255, 255, 255, 0.2)
-          ),
-          url('./images/default-avatar.png') center center;
+         
           background-repeat: no-repeat;
           flex-direction: column;
           background-size: cover;
@@ -49,12 +43,33 @@
             color: wheat;
         }
 
+        .video{
+            background: linear-gradient(to top,
+            rgba(255, 255, 0, 0.9),
+            rgba(255, 255, 0, 0.5),
+            rgba(255, 255, 0, 0.2)
+            
+            ) center top;
+        }
+
+        .video video{
+            
+            position: absolute;
+            z-index: -2;
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+        }
+
        
      </style>
 </head>
 <body>
     
     
+    <div class="video">
+        <video src="./images/server.mp4" autoplay loop muted type="video/mp4"></video>
+    </div>
     <div class="home">
         <h2>Your are welcome to our Server.</h2>
         <p >don't have an account? <a href="register.php">regiser now</a></p>
