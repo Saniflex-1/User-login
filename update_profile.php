@@ -96,7 +96,7 @@ if(isset($_POST['update_profile'])){
          <div class="inputBox">
             <input type="hidden" name="old_pass" value="<?php echo $fetch['password']; ?>">
             <span>old password :</span>
-            <input type="password" name="update_pass" placeholder="enter previous password" class="box">
+            <input type="password" name="update_pass" placeholder="enter previous password!e" class="box">
             <span>new password :</span>
             <input type="password" name="new_pass" placeholder="enter new password" class="box">
             <span>confirm password :</span>
