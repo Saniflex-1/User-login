@@ -99,7 +99,7 @@ if(isset($_POST['update_profile'])){
             <input type="password" name="update_pass" placeholder="enter previous password!e" class="box">
             <span>new password :</span>
             <input type="password" name="new_pass" placeholder="enter new password" class="box">
-            <span>confirm password :</span>
+            <span>Retype password :</span>
             <input type="password" name="confirm_pass" placeholder="confirm new password" class="box">
          </div>
       </div>
